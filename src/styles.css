@@ -61,6 +61,10 @@ header::after {
   align-items: center;
 }
 
+.shadow {
+  box-shadow: 2px 2px 5px black;
+}
+
 section {
   max-width: 300px;
   margin: 0 auto;
@@ -100,11 +104,14 @@ figcaption {
     flex-direction: row;
     max-width: 1000px;
     & section {
-      box-shadow: 3px 3px black;
-      padding: 5px;
+      padding: 5px 15px;
       margin: 0;
       background: #ffffff;
     }
+  }
+
+  section {
+    box-shadow: 2px 2px 5px black;
   }
 
   p {
